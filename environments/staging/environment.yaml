@@ -22,7 +22,7 @@ app:
   resources:
     # max cpu. memory limit is based on cpu value: 1:4 memory ratio, e.g. 1 cpu == 4 gb
     cpu: 1
-
+  java: 17
   # List of environment variables that are set for the application
   #env:
   #  - name: SOME_ENV_VAR_NAME
