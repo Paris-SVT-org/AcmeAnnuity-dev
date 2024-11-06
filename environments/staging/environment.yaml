@@ -4,7 +4,11 @@
 version: 1.0
 app:
   # build id to deploy. if 'version' is commented out, the application is not deployed
-  version: ""
+  maven:
+    groupId: "AcmeAnnuityMaven.AcmeWebEjbEar"
+    artifactId: "0.0.1-SNAPSHOT"
+    version: "ee10-6169422"
+  # version: ""
   
   # number of instances
   instances:
@@ -19,12 +23,13 @@ app:
     cpu: 1
 
   # List of environment variables that are set for the application
-  env:
-    - name: SOME_ENV_VAR_NAME
-      value: "some_env_var_value"
+  #env:
+  #  - name: SOME_ENV_VAR_NAME
+  #   value: "some_env_var_value"
 
   # List of variables that can be referenced in the server.xml
-  variables:
-    - name: some_liberty_variable_name
-      value: "some_liberty_variable_value"
+  #variables:
+  #  - name: some_liberty_variable_name
+  #    value: "some_liberty_variable_value"
+  
       
