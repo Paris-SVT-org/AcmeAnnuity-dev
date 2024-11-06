@@ -8,6 +8,7 @@ app:
     groupId: "AcmeAnnuityMaven.AcmeWebEjbEar"
     artifactId: "0.0.1-SNAPSHOT"
     version: "ee10-6169422"
+    type: ear
   # version: ""
   
   # number of instances
