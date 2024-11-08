@@ -5,9 +5,9 @@ version: 1.0
 app:
   # build id to deploy. if 'version' is commented out, the application is not deployed
   maven:
-    groupId: "AcmeAnnuityMaven.AcmeWebEjbEar"
-    artifactId: "0.0.1-SNAPSHOT"
-    version: "ee10-6169422"
+    groupId: "AcmeAnnuityMaven"
+    artifactId: "AcmeWebEjbEar"
+    version: "0.0.1-SNAPSHOT-ee10-6169422"
     type: ear
   # version: ""
   
